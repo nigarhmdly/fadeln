@@ -1,0 +1,14 @@
+.det{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 550px;
+
+    div{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    }
+}

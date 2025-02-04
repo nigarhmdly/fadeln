@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../../components/header/Header'
 
-const Watch = () => {
+const Bookmark = () => {
   return (
     <div>
-      <Header/>
+        <Header/>
     </div>
   )
 }
 
-export default Watch
+export default Bookmark

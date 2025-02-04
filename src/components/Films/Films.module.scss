@@ -1,0 +1,88 @@
+.Films{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    padding: 45px 0px;
+
+    .container{
+ width: 80%;
+ height: 100%;
+.items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        
+        
+        .buttons{
+            position: absolute;
+            display: none;
+            z-index: 1;
+            background-color: #00000074;
+            height: 100%;
+            width: 100%;
+           
+
+            button{
+                color: white;
+                background-color: transparent;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: #E3B517;
+                }
+
+               
+            }
+        }
+        
+        .buttonss{
+            position: absolute;
+            display: none;
+            z-index: 1;
+            gap: 10px;
+           
+
+            button{
+                color: white;
+                background-color: transparent;
+                border: none;
+                font-size: 23px;
+                cursor: pointer;
+                &:hover{
+                    color: #E3B517;
+                }
+
+               
+            }
+        }
+        img{
+         
+            display: flex;
+            width: 150px;
+            height: 230px;
+            cursor: pointer;
+            border: 1px solid rgb(100, 100, 100);
+            border-radius: 5px;
+         
+        }
+        &:hover .buttons{
+            display: flex;
+                        }
+                        &:hover .buttonss{
+                            display: flex;
+                                        }
+    }
+}
+}
+}

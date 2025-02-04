@@ -9,8 +9,8 @@ const NotFoundPage = () => {
   return (
      <div className={styles.not}>
         <h1>404</h1>
-        <p>Sehife tapilmadi</p>
-        <button onClick={()=> nav(-1)}>Geri</button>
+        <p>PAGE NOT FOUND</p>
+        <button onClick={()=> nav(-1)}>GO BACK</button>
     </div>
   )
 }

@@ -27,7 +27,7 @@ const Header = () => {
         <li><a href="/like"><i><FaRegHeart /></i>Likes</a></li>
         <li><a href="/watch"><i><FaRegEye /></i>Watch</a></li>
         <li><a href="/mark"><i><FaRegBookmark /></i>Bookmarks</a></li>
-        <li><a href="/"><i><CgProfile /></i>Profile</a></li>
+        <li><a href="/login"><i><CgProfile /></i>Profile</a></li>
         <li><a className={styles.post} href="/">Post</a></li>
     </ul>
 </nav>

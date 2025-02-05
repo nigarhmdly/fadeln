@@ -38,7 +38,7 @@ const Films = () => {
       <div onClick={()=> goo(item)} className={styles.buttons}>
       </div>
       <nav className={styles.buttonss}>
-        <button><FaRegHeart /></button>
+        <button onClick={()=> add(item)}><FaRegHeart /></button>
         <button><FaRegEye /></button>
         <button><FaRegBookmark /></button>
         </nav>

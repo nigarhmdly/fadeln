@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import Watch from '../pages/watch/Watch'
 import Like from '../pages/like/Like'
 import Bookmark from '../pages/bookmark/Bookmark'
+import Login from '../pages/login/Login'
 
 const Router = () => {
   return (
@@ -19,6 +20,7 @@ const Router = () => {
         <Route path='/admin' element={<AdminPanel/>}/>
         <Route path='/detail' element={<Details/>}/>
         <Route path='*' element={<NotFoundPage/>}/>
+        <Route path='/login' element={<Login/>}/>
     </Routes>
     </BrowserRouter>
   )

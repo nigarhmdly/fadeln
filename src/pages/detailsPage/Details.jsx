@@ -5,9 +5,24 @@ import Header from '../../components/header/Header'
 import { MdOutlinePlayCircle } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegBookmark } from "react-icons/fa";
+import { useFormik } from 'formik';
 import { FaRegEye } from "react-icons/fa";
 
 const Details = () => {
+
+
+  const formik = useFormik({
+    initialValues: {
+      firstName: '',
+      lastName: '',
+      email: '',
+    },
+    onSubmit: values => {
+      alert(JSON.stringify(values, null, 2));
+    },
+  });
+
+
     const loc = useLocation()
     const {item} = loc.state
   
@@ -33,7 +48,19 @@ const Details = () => {
 
    <p>⭐ {item.imdb} / 10</p>
 <br />
-   <a href={item.trailer}><i><MdOutlinePlayCircle /></i>TRAILER</a>
+  <table>
+    <tr>
+      <td> <p>Where to watch</p> <a href={item.trailer}><i><MdOutlinePlayCircle /></i>TRAILER</a></td>
+    </tr>
+    
+    <tr>
+      <th>Not streaming.</th>
+    </tr>
+
+    <tr >
+      <th className={styles.link}><a href="$">All services…</a> <a href="https://www.justwatch.com/">JustWatch</a></th>
+    </tr>
+  </table>
 
 
    </nav>
@@ -68,12 +95,28 @@ const Details = () => {
 </table>
 
 
+
+<form onSubmit={formik.handleSubmit}>
+       <input
+         id="firstName"
+         name="firstName"
+         placeholder='Add Your Comment'
+         type="text"
+         onChange={formik.handleChange}
+         value={formik.values.firstName}
+       />
+       
+       <button type="submit">Submit</button>
+     </form>
+
+
    </h3>
    </div>
 
   </div> : <p>melumat yoxdur</p> }
     </div>
   </div>
+
    </section>
    </section>
 )

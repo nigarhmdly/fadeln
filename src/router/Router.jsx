@@ -5,9 +5,9 @@ import Details from '../pages/detailsPage/Details'
 import NotFoundPage from '../pages/notFoundPage/NotFoundPage'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Watch from '../pages/watch/Watch'
-import Like from '../pages/like/Like'
 import Bookmark from '../pages/bookmark/Bookmark'
 import Login from '../pages/login/Login'
+import Like from '../pages/like/Like'
 
 const Router = () => {
   return (

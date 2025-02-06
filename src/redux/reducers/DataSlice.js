@@ -35,7 +35,7 @@ export const getLikeItemThunk = createAsyncThunk("api/getlike",async()=>{
 export const postLikeItemThunk = createAsyncThunk("api/postlike",async(data)=>{
     await axios.get("http://localhost:5001/like")
     .then((res)=>{
-        const likes = res.data.find(item=> item.title === data.title)
+        const likes = res.data.find(item=> item.name === data.name)
 
         if (likes) {
             alert('sebetde var')

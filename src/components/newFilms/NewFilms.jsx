@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './NewFilms.module.scss'
+import Search from '../search/Search'
 
 const NewFilms = () => {
   return (

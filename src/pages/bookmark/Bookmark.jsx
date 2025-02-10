@@ -6,7 +6,6 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteLikeItemThunk, getLikeItemThunk } from '../../redux/reducers/DataSlice'
 import { useNavigate } from 'react-router';
-import { FaRegEyeSlash } from "react-icons/fa";
 
 
 

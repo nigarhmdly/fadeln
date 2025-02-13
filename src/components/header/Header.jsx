@@ -19,7 +19,7 @@ const Header = () => {
 
 
 
-  const [title, setTitle] = useState(<GiHamburgerMenu />);
+  const [title] = useState(<GiHamburgerMenu />);
 
 
   return (

@@ -1,7 +1,6 @@
 import Header from '../../components/header/Header'
 import styles from './Bookmark.module.scss'
-import Search from '../../components/search/Search'
-import { FaBookmark } from "react-icons/fa";
+import { GoBookmarkSlash } from "react-icons/go";
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteLikeItemThunk, getLikeItemThunk } from '../../redux/reducers/DataSlice'
@@ -29,12 +28,14 @@ const Bookmark = () => {
 
 
   return (
-    <section className={styles.like}>
+    <section className={styles.bookmark}>
       <Header/>
-      <Search/>
+
+<section className={styles.a}>
+ 
 
 <section>
-  <div className={styles.container}>
+<div className={styles.container}>
 
 
 
@@ -57,7 +58,7 @@ const Bookmark = () => {
       </h1>
       <div onClick={()=> goo(item)} className={styles.buttons}>
       </div>
-        <button onClick={()=> delet(item._id)}><FaBookmark /></button>
+        <button onClick={()=> delet(item._id)}><GoBookmarkSlash /></button>
 
     </div>
   })}
@@ -75,6 +76,7 @@ const Bookmark = () => {
 
 
   </div>
+</section>
 
   
 

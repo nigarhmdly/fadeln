@@ -1,6 +1,5 @@
 import Header from '../../components/header/Header'
 import styles from './Watch.module.scss'
-import Search from '../../components/search/Search'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteLikeItemThunk, getLikeItemThunk } from '../../redux/reducers/DataSlice'
@@ -29,11 +28,11 @@ const Watch = () => {
 
 
   return (
-    <section className={styles.like}>
+    <section className={styles.watch}>
       <Header/>
-      <Search/>
 
-<section>
+<section className={styles.a}>
+  <section>
   <div className={styles.container}>
 
 
@@ -71,6 +70,7 @@ const Watch = () => {
 
   </div>
 
+  </section>
   
 
 </section>

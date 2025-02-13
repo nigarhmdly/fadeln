@@ -1,6 +1,5 @@
 import Header from '../../components/header/Header'
 import styles from './Like.module.scss'
-import Search from '../../components/search/Search'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteLikeItemThunk, getLikeItemThunk } from '../../redux/reducers/DataSlice'
@@ -30,9 +29,10 @@ const Like = () => {
   return (
     <section className={styles.like}>
       <Header/>
-      <Search/>
 
-<section>
+<section className={styles.a}>
+  
+  <section>
   <div className={styles.container}>
 
 
@@ -70,6 +70,7 @@ const Like = () => {
 
   </div>
 
+  </section>
   
 
 </section>

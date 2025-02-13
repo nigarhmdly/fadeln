@@ -1,21 +1,22 @@
 .like{
-    display: flex;
     width: 100%;
     background-color: rgb(0, 0, 0);
     height: 100vh;
 
-
-    section{
+    .a{
         display: flex;
-        align-items: start;
-        justify-content: end;
+        justify-content: start;
         width: 100%;
 
-        .container{
+        section{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            width: 80%;
+            justify-content: end;
+            align-items: end;
+            width: 100%;
+        }
+        .container{
+           width: 80%;
             margin: 45px 0px;
 
             nav{

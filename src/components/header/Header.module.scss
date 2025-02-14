@@ -185,7 +185,7 @@ border-radius: 12px;
     
 .addicon{
     position: absolute;
-    right: 40px;
+    right: 10px;
     position: fixed;
     top: 88vh;
     text-decoration: none;
@@ -196,7 +196,7 @@ border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3px 14px 5px 14px;
+    padding: 0px 14px 5px 14px;
     border-radius: 12px;
     }
     header{
@@ -291,20 +291,20 @@ border-radius: 12px;
   @media  (max-width: 700px) {
     .addicon{
         position: absolute;
-        right: 40px;
-        position: fixed;
-        top: 88vh;
-        text-decoration: none;
-        background-color: white;
-        font-size: 30px;
-        font-weight: 700;
-        color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 3px 14px 5px 14px;
-        border-radius: 12px;
-        }
+    right: 10px;
+    position: fixed;
+    top: 88vh;
+    text-decoration: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 12px 5px 12px;
+    border-radius: 12px;
+    }
     header{
         background-color: black;
         display: flex;

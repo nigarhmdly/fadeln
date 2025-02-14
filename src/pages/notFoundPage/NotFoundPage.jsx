@@ -8,10 +8,18 @@ const NotFoundPage = () => {
 
   return (
      <div className={styles.not}>
-        <h1>404</h1>
-        <p>PAGE NOT FOUND</p>
-        <button onClick={()=> nav(-1)}>GO BACK</button>
-    </div>
+<img src="https://a0.anyrgb.com/pngimg/205/117/illustration-oops-404-error-with-a-broken-robot-internet-browser-server-website-robot-error.png" alt="" />
+
+<div>
+<a onClick={()=> nav(-1)} href="/" className={styles.btn}>
+  <span className={styles.text}>Textttttt</span>
+  <span className={styles.flipfront}>Go Back</span>
+  <span className={styles.flipback}>Go Back</span>
+</a>
+</div>
+
+
+   </div>
   )
 }
 

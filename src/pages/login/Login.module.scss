@@ -179,19 +179,19 @@
                     width: 85%;
                     color: white;
                     background-color: transparent;
-                    border: 1px solid rgba(249, 249, 249, 0.221);
+                    border: 1px solid rgba(249, 249, 249, 0.026);
                     padding: 7px;
                     border-radius: 20px;
                     font-size: 13px;
-                    border: 1px solid rgba(249, 249, 249, 0.221);
+                    border: 1px solid rgba(249, 249, 249, 0.223);
     
                     &::placeholder{
-                        color: rgba(255, 255, 255, 0);
+                        color: rgba(255, 255, 255, 0.616);
                         border: none;
                     }
                     &:focus{
                         border: none;
-                        outline:1px solid rgba(249, 249, 249, 0.221);
+                        outline:1px solid rgba(249, 249, 249, 0.43);
      
     
                     }

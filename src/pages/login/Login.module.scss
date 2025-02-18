@@ -210,7 +210,6 @@
     
             p{
                 color: white;
-                font-size: 11px;
                 a{
                     font-weight: 700;
                 }
@@ -218,16 +217,7 @@
             button{
                 background-color: rgb(255, 255, 255);
                 border: none;
-                width: 75%;
-                padding: 7px;
-                border-radius: 20px;
-                font-size: 13px;
-                position: relative;
-                &:hover{
-                    background-color: #e3b317;
-                    color: white;
-                    transition: .2s;
-                }
+           
             }
         }
     
